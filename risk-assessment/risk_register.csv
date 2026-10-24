@@ -1,0 +1,11 @@
+Risk ID,Category,Risk Description,Affected Asset,Threat Source,Likelihood,Impact,Rating,Level
+R-01,Technology,Unauthorized access to cloud-hosted customer data via misconfigured storage or stolen credentials,"Cloud-hosted customer database (500,000+ records)",External attacker exploiting cloud misconfiguration,4,5,20,High
+R-02,Technology,Repeat data breach following the unreported and uninvestigated 2024 incident,"Customer financial records, transaction histories, identity documents",External attacker; original vector unknown and unaddressed,5,5,25,Critical
+R-03,People/Process,Absence of IRP enabling any breach to escalate without containment or notification,All NoorPay systems and customer data,Internal process failure; no governance structure,4,4,16,High
+R-04,Technology,Data exposure via unvetted third-party cloud provider with no DPA or data residency confirmation,Customer PII stored and processed by cloud provider,Third-party vendor failure or unauthorized cross-border transfer,3,4,12,Medium
+R-05,People/Process,Insider privilege abuse enabled by absence of access controls and audit logging,Customer financial data and identity documents,Malicious or negligent insider across 250 employees,3,4,12,Medium
+R-06,People/Process,Inability to fulfill data subject rights under GDPR Art. 17 and PDPL Art. 12,Customer personal data processing records,Regulatory enforcement triggered by customer complaint or audit,4,3,12,Medium
+R-07,Technology,Phishing attack compromising employee credentials and granting cloud data access,Employee accounts providing access to cloud systems,External attacker using phishing or spear-phishing,4,4,16,High
+R-08,Compliance/Regulatory,SDAIA and SAMA regulatory audit failure due to zero documentation and unreported 2024 breach,NoorPay operating license and business continuity,"Regulatory authority (SDAIA, SAMA, EU supervisory authority)",5,5,25,Critical
+R-09,Technology,Interception of unencrypted payment and identity data transmitted to cloud provider,Payment and identity data in transit,External attacker conducting man-in-the-middle interception,3,4,12,Medium
+R-10,Technology,"Operational disruption with no BCP/DRP for 500,000 daily transactions",Payment processing platform and all active transactions,"System failure, ransomware attack, or cloud outage",3,4,12,Medium

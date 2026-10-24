@@ -1,0 +1,13 @@
+Regulation,Article,Requirement,Status,Evidence,Gap
+GDPR,Art. 6,Lawful Basis for Processing,Non-Compliant,No Records of Processing Activities exist; no processing documentation of any kind,All EU customer data processing lacks a documented legal justification under any Art. 6 ground
+GDPR,Art. 25,Data Protection by Design,Non-Compliant,No DPIA process; no privacy controls in system design; no data minimization defaults,Systems were built and deployed without any GDPR privacy considerations embedded
+GDPR,Art. 30,Records of Processing Activities,Non-Compliant,"No data inventory, no processing register, no retention schedule documented",Complete absence of the foundational GDPR documentation that all auditors request first
+GDPR,Art. 32,Security of Processing,Non-Compliant,No security policy; IT manager makes all decisions informally; 2024 breach confirms failure,No technical or organizational security controls are documented or verifiably implemented
+GDPR,Art. 33,Breach Notification,Non-Compliant,"2024 breach of 12,000 records was never reported to any supervisory authority",Confirmed existing violation; 72-hour notification window was missed with no procedure in place
+GDPR,Art. 37,Data Protection Officer,Non-Compliant,No CISO appointed; IT manager handles all security informally alongside other duties,DPO not appointed despite mandatory requirement for large-scale financial data processing
+Saudi PDPL,Art. 5,Lawful Basis and Consent,Non-Compliant,"No consent records, no contract-basis documentation for any processing activity",All Saudi resident data processing is legally undocumented and unjustified
+Saudi PDPL,Art. 9,Data Minimization,Non-Compliant,No data minimization policy; no justification for data categories collected,Scope of data collected has never been assessed against the minimum-necessary principle
+Saudi PDPL,Art. 12,Data Subject Rights,Non-Compliant,"No request portal, no designated contact, no response procedure exists","500,000+ customers cannot exercise rights; all requests would go entirely unprocessed"
+Saudi PDPL,Art. 15,Security Measures,Non-Compliant,"No security policy, no CISO, undocumented cloud security; 2024 breach confirms failure",No documented technical or organizational security controls proportionate to data sensitivity
+Saudi PDPL,Art. 20,Breach Notification to SDAIA,Non-Compliant,"2024 breach of 12,000 records never reported to SDAIA within 72 hours",Confirmed existing PDPL violation; not a future risk but an actual breach of the law
+Saudi PDPL,Art. 30,Cross-Border Transfer Controls,Non-Compliant,Cloud provider location undocumented; no data residency confirmation exists,Saudi resident data may be stored outside KSA without authorization or safeguards
