@@ -20,7 +20,7 @@ Acting as external GRC consultants, we:
 All risks and compliance audits were captured in [CISO Assistant](https://github.com/intuitem/ciso-assistant-community), an open-source GRC platform. The Saudi PDPL framework was built as a custom YAML library from SDAIA's official guidance.
 
 
-📄 **[Read the full report (PDF)](report/NoorPay_GRC_Engaement.pdf)** 
+📄 **[Read the full report (PDF)](report/NoorPay_GRC_Engagement.pdf)** 
 
 ## Key findings
 
